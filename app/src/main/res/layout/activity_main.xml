@@ -1,0 +1,8 @@
+<com.zjucompass.zjucampus3.NoSlideViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.zjucompass.zjucampus3.MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />

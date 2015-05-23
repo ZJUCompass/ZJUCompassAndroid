@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    android:id="@+id/teacher_count"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="120位联系人"
+    android:gravity="center"
+    android:background="#eef0eb"
+    android:paddingBottom="20dp"
+    android:paddingTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

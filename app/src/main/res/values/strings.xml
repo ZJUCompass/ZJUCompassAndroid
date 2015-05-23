@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">浙大指南</string>
+    <string name="title_activity_main">浙大指南</string>
+
+    <string name="title_section1">查地图</string>
+    <string name="title_section2">找老师</string>
+    <string name="title_section3">找事项</string>
+    <string name="action_about">关于我们</string>
+    <string name="action_feedback">意见反馈</string>
+    <string name="action_settings">设置</string>
+
+    <string name="title_activity_teacher_detail">教师详情</string>
+    <string name="title_activity_matter_detail">事项详情</string>
+
+    <string name="report_data_error">数据纠错</string>
+    <string name="no_data">暂无数据</string>
+    <string name="title_activity_about">关于我们</string>
+    <string name="title_activity_settings">设置</string>
+
+    <!--Feedback-->
+    <string name="title_activity_feedback">意见反馈</string>
+    <string name="feedback_hint">请输入您的反馈，我们将为您不断改进</string>
+    <string name="contact_prompt">您的联系方式</string>
+    <string name="email_hint">输入您的邮箱（选填）</string>
+    <string name="phone_hint">输入您的电话（选填）</string>
+    <string name="submit">提    交</string>
+
+    <string name="message_sent_success">消息已发送，感谢您的反馈！</string>
+    <string name="message_sent_failed">消息未发送，请稍后重试！</string>
+    <string name="title_activity_correct_teacher">教师信息纠错</string>
+
+    <string name="title_activity_correct_matter">事项纠错</string>
+    <string name="title_activity_faq">常见问题解答</string>
+    <string name="title_activity_loading">载入</string>
+
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+
+    <string name="answer4">欢迎通过我们的<a href="http://zjucompass.shuailong.me">官方网站</a>了解更多信息。也可以通过APP
+                内的意见反馈将您的宝贵意见提交到我们的系统后台。</string>
+
+
+</resources>

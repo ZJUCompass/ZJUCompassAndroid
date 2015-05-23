@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zjucompass.zjucampus3.AboutActivity">
+
+    <ImageView
+        android:id="@+id/about_img"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/about_img"
+        />
+    <TextView
+        android:id="@+id/about_name"
+        android:layout_below="@id/about_img"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="浙大指南工作组荣誉出品"/>
+    <TextView
+        android:id="@+id/about_contact"
+        android:layout_below="@id/about_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#809eba"
+        android:text="admin@zjucompass.com"/>
+
+</RelativeLayout>

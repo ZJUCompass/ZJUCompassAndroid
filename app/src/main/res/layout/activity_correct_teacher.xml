@@ -1,0 +1,211 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.zjucompass.zjucampus3.CorrectTeacherActivity" >
+
+    <LinearLayout
+        android:id="@+id/correct_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progress_correct_teacher"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/correct_teacher_detail_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/avatar_default"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                >
+                <EditText
+                    android:id="@+id/correct_teacher_detail_name"
+                    style="@style/TeacherDetailItemTheme"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:minWidth="150dp"
+                    android:text=""/>
+                <EditText
+                    android:id="@+id/correct_teacher_detail_title"
+                    style="@style/TeacherDetailItemTheme"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:minWidth="150dp"
+                    android:text=""/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <!--所属院系-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="16sp"
+                android:text="所属院系"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:id="@+id/correct_teacher_detail_dept"
+                style="@style/TeacherDetailItemTheme"
+                android:layout_width="match_parent"
+                android:text="计算机学院"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+
+            <!--电话-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="16sp"
+                android:text="电话"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/correct_teacher_detail_phone"
+                    style="@style/TeacherDetailItemTheme"
+                    android:text="15267017258"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    />
+            </RelativeLayout>
+
+            <!--邮箱-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="16sp"
+                android:text="邮箱"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/correct_teacher_detail_email"
+                    style="@style/TeacherDetailItemTheme"
+                    android:text="liangshuailong@gmail.com"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    />
+            </RelativeLayout>
+
+            <!--办公地点-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="16sp"
+                android:text="办公地点"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:id="@+id/correct_teacher_detail_building"
+                style="@style/TeacherDetailItemTheme"
+                android:layout_width="match_parent"
+                android:text="玉泉校区32舍685室"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+
+            <!--研究领域-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="16sp"
+                android:text="研究领域"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/correct_teacher_detail_research"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="H5前端开发、安卓开发、后台开发、分布式系统"
+                android:textSize="16sp"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginBottom="20dp"
+                />
+
+            <Button
+                android:id="@+id/submit_correct_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:background="@drawable/button_selector"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

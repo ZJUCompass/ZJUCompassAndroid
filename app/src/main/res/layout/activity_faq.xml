@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.zjucompass.zjucampus3.FaqActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="这个APP是干什么用的？"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#444"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                />
+
+            <TextView
+                android:text="查老师、查地图、查办事流程……有个这个APP，一切帮你搞定！"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#666"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:text="数据是从哪里来的？可靠吗？"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#444"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                />
+
+            <TextView
+                android:text="我们的大部分数据是从浙江大学个人主页和校网办事大厅上获取的，也有一部分数据是用户给我们反馈的。如果您发现信息有错，欢迎随时向我们反馈哦。"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#666"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:text="数据多久更新一次？"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#444"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                />
+
+            <TextView
+                android:text="一般来说我们会保持一个月一次更新的频率。"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#666"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:text="怎么联系你们？"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#444"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                />
+
+            <TextView
+                android:id="@+id/answer4"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:textColor="#666"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
